@@ -1,6 +1,6 @@
 .container {
-    width: 300px;
-    min-height: 300px;
+    width: 400px;
+    min-height: 400px;
     margin: 50px auto;
     padding: 15px;
     display: flex;
@@ -9,4 +9,5 @@
     align-items: center;
     border: 1px solid rgb(211, 211, 211);
     border-radius: 20px;
+    background-color: #2D3748;
 }

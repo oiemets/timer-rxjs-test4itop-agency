@@ -1,17 +1,12 @@
 import React from 'react';
 import CountersContainer from '../CountersContainer/CountersContainer';
-import Counter from '../Counter/Counter';
-import ObservablesCounter from '../ObservablesCounter/ObservablesCounter';
+import ObservablesStopWatch from '../ObservablesStopWatch/ObservablesStopWatch';
 
 function App() {
   return (
-    <div>
         <CountersContainer>
-            <Counter/>
-            <ObservablesCounter/>
+            <ObservablesStopWatch/>
         </CountersContainer>
-        
-    </div>
   );
 }
 
